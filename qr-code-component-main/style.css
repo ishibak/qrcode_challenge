@@ -1,0 +1,36 @@
+.card {
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  max-width: 320px;
+  margin: 40px auto;
+  padding: 24px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-image {
+  width: 100%;
+  max-width: 310px;
+  border-radius: 12px;
+  display: block;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.title {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin: 16px 0;
+}
+
+.description {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  line-height: 1.5;
+}
